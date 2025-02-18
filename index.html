@@ -114,6 +114,7 @@
             color: white;
             cursor: pointer;
             margin: 20px auto;
+            display: block;
             text-align: center;
         }
 
@@ -123,9 +124,6 @@
     </style>
 </head>
 <body>
-    <h1 style="text-align: center; font-size: 24px; margin-bottom: 20px;">
-        The ultimate distraction killer
-    </h1>
     <div id="search-container">
         <input type="text" id="search-input" placeholder="Search..." autocomplete="off">
         <button id="search-button">Search</button>
@@ -140,7 +138,7 @@
     </div>
 
     <script>
-        const API_KEY = 'AIzaSyDrdDVjqX0B-tSDVKi-nN3QsBoB9hb-2kg'; // Replace with your YouTube API key
+        const API_KEY = 'YOUR_YOUTUBE_API_KEY'; // Replace with your YouTube API key
         let player;
         let nextPageToken = "";
 
@@ -241,5 +239,4 @@
         firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
     </script>
 </body>
-</html>    
-        
+</html>
